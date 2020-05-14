@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.genreTag {
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.games-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.game {
+  font-family: "Nunito", sans-serif;
+  margin: 20px;
+}
+
+.game-title {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.Label .Label--outline .Label--outline-green {
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #28a745;
+  color: #e4e4e4;
+}
